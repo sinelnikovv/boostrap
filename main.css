@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html{
+    font-family: 'Lato', sans-serif;
+}
+
+a, h1, h2{
+    font-family: 'Montserrat';
+}
+
+.navbar{
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.16);
+    font-size: 18px;
+}
+
+.navbar-dark .navbar-nav .nav-link.active{
+    background-color: #fff;
+    color: black;
+}
+
+.nav-pills .nav-link{
+    border-radius: 0;
+    width: 104px;
+}
+
+header{
+    background: #F44336;
+}
+
+.header h1{
+    font-size: 63px;
+    line-height: 96px;
+    padding: 90px 0 25px;
+}
+
+.header p{
+    font-size: 23px;
+    padding-bottom: 40px;
+}
+
+.header a{
+   padding: 10px 25px;
+    margin-bottom: 130px;
+}
+
+.p75{
+    padding: 75px 0;
+}
+
+.gray{
+    color: #757575;
+    padding: 45px 0 75px;
+}
+
+.img{
+    width: 280px;
+    height: 360px;
+}
+
+.quote{
+    padding: 80px 0;
+    font-size: 23px;
+    line-height: 36px;
+}
+
+.footer h2{
+    padding: 90px 0;
+}
+
+.footer p{
+    padding-bottom: 40px;
+}
